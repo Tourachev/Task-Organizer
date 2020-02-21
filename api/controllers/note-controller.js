@@ -1,4 +1,4 @@
-const Note = require('../models/note-model');
+const Note = require('../models/notes-model');
 
 createNote = (req, res) => {
 	const body = req.body;

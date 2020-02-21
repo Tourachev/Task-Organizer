@@ -11,7 +11,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const apiPort = 3000;
 const db = require('./db');
-const 
+const notesRouter = require('./routes/notes-router');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,12 +23,13 @@ app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Get request for first page
-app.get('/', (req, res) => {
-	res.send('What up b!');
-});
+// // Get request for first page
+// app.get('/', (req, res) => {
+// 	res.send('What up b!');
+// });
 
 // Other routes. Managed through routes
+app.use('/api', notesRouter);
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
