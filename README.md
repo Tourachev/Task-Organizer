@@ -37,5 +37,5 @@ An online based task organizer intended to optiize workflow, set reminders and t
 
 ## Running
 
-Run `mongo` an `node app.js` from the API folder.
+Run `mongo` an `nodemon app.js` from the API folder.
 Run `npm start` from the client folder.
