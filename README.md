@@ -37,5 +37,6 @@ An online based task organizer intended to optiize workflow, set reminders and t
 
 ## Running
 
-Run `mongo` an `nodemon app.js` from the API folder.
-Run `npm start` from the client folder.
+To start database run `mongo` and `use notes` from the API folder.
+To start server run `nodemon app.js` from the API folder.
+To start front end run `npm start` from the client folder.
