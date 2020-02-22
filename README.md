@@ -27,13 +27,15 @@ An online based task organizer intended to optiize workflow, set reminders and t
 
 ## TODO
 
+-   Confirm functionality
 -   Design
 -   Plan out architecture
--   Connect Database
 
 ## Done
 
--   API and Client boi
+-   API and Client boilerplates
+-   Database connected.
+-   Some basic data inserted using post request via postman to confirm connectivity.
 
 ## Running
 
